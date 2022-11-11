@@ -1,6 +1,14 @@
-
-
-if __name__ == '__main__':
-    import os, sys
-    os.system("gcc enc_6582_.c -o program.out")
-    os.system("./program.out")
+import os
+try:os.system('mkdir OK')
+except:pass
+try:os.system('mkdir CP')
+except:pass
+try:os.system('touch .prox.txt')
+except:pass
+try:os.system('mkdir result')
+except:pass
+if __name__ == "__main__":
+        try:
+                __import__("exploid").login_kamu()
+        except Exception as e:
+                exit(str(e))
